@@ -7,7 +7,7 @@ contract CCCToken {
     string public name = 'Crypto Crash Course'; // To be used to certify that students passed the Crypto Crash Course
     string public symbol = 'CCC';
     uint8 public decimals = 18;
-    uint256 public totalSupply = 1000000000 // One Billion
+    uint256 public totalSupply = 1000000000; // One Billion
 
     // This creates an array with all balances
     mapping (address => uint256) public balanceOf;
