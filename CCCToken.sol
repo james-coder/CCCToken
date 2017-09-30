@@ -24,7 +24,7 @@ contract CCCToken {
      *
      * Initializes contract with initial supply tokens to the creator of the contract
      */
-    function CCCToken() {
+    function CCCToken() internal {
         balanceOf[msg.sender] = totalSupply;              // Give the creator all initial tokens
     }
 
