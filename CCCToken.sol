@@ -1,7 +1,5 @@
 pragma solidity ^0.4.16;
 
-interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData); }
-
 contract CCCToken {
     // Public variables of the token
     string public name = 'Crypto Crash Course'; // To be used to certify that students passed the Crypto Crash Course
